@@ -9,7 +9,7 @@ jobs:
     strategy:
     # allows specification of different environments for the job to run in.
       matrix:
-        python-version: [3.8, 3.9, 3.10]
+        python-version: ['3.8', '3.9', '3.10']
 
     steps:
     - uses: actions/checkout@v2  # This step checks out the repository's code
