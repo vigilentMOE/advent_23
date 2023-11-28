@@ -12,9 +12,9 @@ jobs:
         python-version: [3.8, 3.9, 3.10]
 
     steps:
-    - uses: actions/checkout@v4  # This step checks out the repository's code
+    - uses: actions/checkout@v2  # This step checks out the repository's code
     - name: Set up Python ${{ matrix.python-version }}  # This step sets up the Python environment
-      uses: actions/setup-python@v4 # This action sets up a Python environment on the runner
+      uses: actions/setup-python@v2 # This action sets up a Python environment on the runner
       with:
         python-version: ${{ matrix.python-version }}  # This specifies the Python version to use
     
