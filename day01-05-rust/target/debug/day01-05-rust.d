@@ -1,0 +1,1 @@
+/home/vigmoe/advent/advent_23/day01-05-rust/target/debug/day01-05-rust: /home/vigmoe/advent/advent_23/day01-05-rust/src/day0_0.rs /home/vigmoe/advent/advent_23/day01-05-rust/src/lib.rs /home/vigmoe/advent/advent_23/day01-05-rust/src/main.rs
